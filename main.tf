@@ -21,7 +21,7 @@ data "aws_iam_policy_document" "cloudfront_oac_access" {
   statement {
     principals {
       type        = "Service"
-      identifiers = ["cloudfront.amazoneaws.com"]
+      identifiers = ["cloudfront.amazonaws.com"]
     }
 
     actions = [
